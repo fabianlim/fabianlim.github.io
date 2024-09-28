@@ -6,15 +6,8 @@ on:
 
 jobs:
    
-  verify:
+  build-and-verify:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - target: "html"
-            file: "index.html"
-          - target: "pdf"
-            file: "resume.pdf"
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python 3.9
@@ -23,11 +16,18 @@ jobs:
           python-version: 3.9
       - name: "Install pandoc"
         run: |
-          wget https://github.com/jgm/pandoc/releases/download/3.0.1/pandoc-3.0.1-1-amd64.deb
-          sudo apt install ./pandoc-3.0.1-1-amd64.deb
-      - name: "Install weasyprint"
+          wget https://github.com/jgm/pandoc/releases/download/3.4/pandoc-3.4-1-amd64.deb
+          sudo apt install ./pandoc-3.4-1-amd64.deb
+      - name: "Install weasyprint and comparepdf"
         if: ${{ matrix.target }} == "pdf"
         run: |
-          sudo apt install weasyprint
+          sudo apt install weasyprint comparepdf
+      - name: Rebuild
+        run: |
+          cp resume.pdf resume-old.pdf
+          bash build.sh html pdf
       - name: Run Verification
-        run: bash verify.sh ${{ matrix.file }}
+        run: |
+          bash verify.sh index.html
+          comparepdf -ct -v=1 resume.pdf resume-old.pdf
+

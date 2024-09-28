@@ -13,7 +13,7 @@ function echoWarning() {
 }
 
 if [ ! -z "$GIT_DIFF" ]; then
-    echoWarning "Target $TARGET does not match. Please run `bash build.sh $TARGET` and recommit." 
+    echoWarning "Target $TARGET does not match. Please run \'bash build.sh $TARGET\' and recommit." 
     exit 1
 fi
 
