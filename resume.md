@@ -18,7 +18,7 @@ subject: 'Resume'
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<a href="https://scholar.google.no/citations?user=Gj-g4EUAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-1x"></i> Google Scholar (click)</a> . <a href="https://patents.google.com/?inventor=Yu+Chin+Fabian+Lim">Patents (click)</a> . <a href="https://github.com/fabianlim"><i class="fa fa-github" style="font-size:14px"></i> Github (click)</a> .  <a href="https://www.linkedin.com/in/fabian-lim-4375a859"><i class="fa fa-linkedin" style="font-size:14px"></i> LinkedIn (click)</a> . 🇸🇬 Singapore citizen . Languages 🔤 🈶
+<a href="https://scholar.google.no/citations?user=Gj-g4EUAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-1x"></i> Google Scholar (click)</a> . <a href="https://patents.google.com/?inventor=Yu+Chin+Fabian+Lim">Patents (click)</a> . <a href="https://github.com/fabianlim"><i class="fa fa-github" style="font-size:14px"></i> Github (click)</a> .  <a href="https://www.linkedin.com/in/fabian-lim-4375a859"><i class="fa fa-linkedin" style="font-size:14px"></i> LinkedIn (click)</a> . 🇸🇬 Singapore citizen . Lang 🔤 🈶 .
 
 
 
@@ -38,10 +38,10 @@ subject: 'Resume'
 
 Aug 2022 – Present, Singapore
 
-- Worked on AI modeling fine-tuning stack `fms-hf-tuning` for training of generative AI models. 
-- Tech lead for `fms-acceleration`, a companion repository to the fms stack that enables quantization, distributed training (e.g., packing), triton kernels, etc.
-- Contributed model tuning improvements and fixes to Huggingface opensource.
-- Contributed to IBM `instructlab` for model training, enabling advanced features such as elastic checkpointing.
+- Contributor to [IBM Foundation Model Stack (FMS)](https://github.com/foundation-model-stack/fms-hf-tuning) for training of generative AI models. 
+- Tech lead for [IBM Foundation Model Stack (FMS) Acceleration](https://github.com/foundation-model-stack/fms-acceleration), compantion stack to FMS for training enhancements including quantization, distributed training, kernels, etc.
+- Contributor to Huggingface 🤗 open source.
+- Contributor to [IBM InstructLab Training Library](https://github.com/instructlab/training) for instruction grounding of AI generative models.
 
 **Skills**: Python (Programming Language) · Open-Source Software · Artificial Intelligence (AI) · Generative AI
 
@@ -49,7 +49,7 @@ Aug 2022 – Present, Singapore
 
 Jul 2020 – Aug 2022, Singapore
 
-- Worked on internal AIOps projects involving log analysis tools, deployed prototype to aid service engineers to investigate issues that customers face, for variety of products such as IBM WebSphere.
+- Lead on internal AI Operations project on log analysis, aiding service engineers to investigate issues for variety of IBM products.
 
 **Skills**: Scholarly Research · Artificial Intelligence (AI) · Applied Probability · Natural Language Processing (NLP) · Software Deployment
 
@@ -68,8 +68,8 @@ Mar 2020 – Jun 2020, Singapore
 
 Aug 2018 – Feb 2020, Singapore
 
-- Led a team on asset tokenization platform on Hyperledger Fabric, to deliver a minimum viable research prototype.
-- People management for a team of scientist and engineers, and also play a key role for the leadership and growth of the lab.
+- Lead on asset tokenization platform on Hyperledger Fabric, delivering a minimum viable prototype.
+- People management for a team of scientist and engineers, and played key role for leadership and growth of the lab.
 
 **Skills**: R&D Management · Software Project Management
 
@@ -77,9 +77,12 @@ Aug 2018 – Feb 2020, Singapore
 
 Mar 2016 - Aug 2018, Singapore
 
-- Technical lead for private sharing protocols for permission-ed blockchains for the Shared KYC project with Deutsche, HSBC, MUFC banks and Cargill.
-- Founding member of the IBM Center for Blockchain Innovation in Singapore, setup in late 2016
+- Lead on private sharing protocols for permission-ed blockchains for the Shared KYC project with Deutsche, HSBC, MUFC banks and Cargill.
+- Founding member of the IBM Center for Blockchain Innovation in Singapore.
+
+<!--
 - Worked with IBM Researchers from IBM Research, Melbourne
+-->
 
 **Skills**: Software Project Management · Blockchain · Cryptography
 
@@ -89,9 +92,9 @@ Nov 2014 – Mar 2016, San Jose, CA
 
 <!-- Architecture & Media Group -->
 
-- Analyzed and developed models for NAND flash storage systems.
-- Developed simulator platform for prototyping and testing on NAND data and NAND models.
-- Developed error recovery algorithms for NAND flash storage systems.
+- Analyzed and developed models for flash storage systems.
+- Developed simulator platform for prototyping and testing on flash storage.
+- Developed error recovery systems for flash storage.
 
 **Skills**: Error Correction Codes, Algorithm Architecture, Hardware-Software Verification
 
@@ -101,27 +104,27 @@ June 2013 – Nov 2014, San Jose, CA
 
 <!-- Data Controller Division/Backend Architecture Group -->
 
-- Involved in algorithm development and architecture design for hard drive data controllers. 
-- Expertise in modern iterative-type error-correction codes aimed at pushing recording densities.
+- Developed algorithms and designed architecture for hard drive data controllers. 
+- Investigated modern iterative-type error-correction codes for pushing recording densities.
 
 **Skills**: Error Correction Codes, Algorithm Architecture, Hardware-Software Verification
 
 ## Awards & Recognition
 
-- National Science Foundation Grant EECS-1128226, amount $359,987,  
-“Energy-efficient compressed sensing: A joint algorithmic/implementation approach using deterministic sensing”, Massachusetts Institute of Technology. 
-- Lockheed Martin Orincon Scholarship, University of Hawaii, Manoa
-- Research Scholarship, National University of Singapore
+- National Science Foundation Grant,
+*“Energy-efficient compressed sensing: A joint algorithmic/implementation approach using deterministic sensing”*, Massachusetts Institute of Technology. 
+- Lockheed Martin Orincon Scholarship, University of Hawaii, Manoa.
+- Research Scholarship, National University of Singapore.
 
 ## Recent Projects
 
 **[*Foundation Model Stack (FMS) Acceleration*](https://github.com/foundation-model-stack/fms-acceleration)** (2024)
 
-- Core Developer & Maintainer of a series of ML acceleration 🚀 plugins for [IBM Foundation Model Stack](https://github.com/foundation-model-stack/fms-hf-tuning) used, for introducing training speedups (e.g., quantization, kernels, packing).
+- Core Developer & Maintainer of a series of ML acceleration 🚀 plugins for [IBM Foundation Model Stack](https://github.com/foundation-model-stack/fms-hf-tuning) for introducing training speedups (e.g., quantization, kernels, packing, etc).
 
 **[*FSDP and DeepSpeed (blog)*](https://huggingface.co/blog/deepspeed-to-fsdp-and-backn)** (2024)
 
-- Main investigator and author of Huggingface 🤗 blog and concept guide on the equivalence of two ML distributed training frameworks MS DeepSpeed and PyTorch Fully-Sharded Data Parallel (FSDP).
+- Core investigator of Huggingface 🤗 blog and concept guide on the equivalence of two ML distributed training frameworks MS DeepSpeed and PyTorch Fully-Sharded Data Parallel (FSDP).
 
 **[*Mixture-of-Experts (MoE) Distributed Training*](https://github.com/foundation-model-stack/moe-distributed-training)** (2024)
 
@@ -129,7 +132,7 @@ June 2013 – Nov 2014, San Jose, CA
 
 **[*Optional Transport With Order Constraints*](https://github.com/IBM/otoc)** (2022)
 
-- Companion repository for our 2022 ICML Paper [Order Constraints in Optimal Transport](https://arxiv.org/abs/2110.07275).
+- COre Mainatainer of companion repository for our 2022 ICML Paper [Order Constraints in Optimal Transport](https://arxiv.org/abs/2110.07275).
 
 ## Education
 
